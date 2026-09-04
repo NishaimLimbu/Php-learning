@@ -55,4 +55,9 @@ $result = mysqli_stmt_get_result($stmt);
     </tr>
 </table>
 
+<form action="place_order.php" method="post" style="margin-top: 20px;">
+    <button type="submit">Place Order</button>
+</form>
+
+
 <?php require_once 'footer.php'; ?>
